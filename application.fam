@@ -1,0 +1,14 @@
+App(
+    appid="ledstrip",
+    name="[WS2812] LedStrip",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ledstrip_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    order=170,
+    fap_category="GPIO",
+    fap_icon_assets="images",
+     fap_private_libs=[
+        Lib(name="ws2812", ),
+    ],
+)
