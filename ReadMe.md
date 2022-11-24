@@ -1,8 +1,11 @@
-# Application led strip
+## Application led strip
 
 https://www.newinnovations.nl/post/controlling-ws2812-and-ws2812b-using-only-stm32-spi/
 
-# Protocol
+# NOT WORKING
+
+
+## Protocol
 
 The WS2812/WS2812B leds use 24 bits for the green, red and blue values. Bits on the data line are encoded by a high pulse followed by a low pulse.
 
